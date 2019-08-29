@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Cards&Spinner</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>   
+
+        <style>
+         *{
+            box-sizing: border-box;
+        }
+        body{
+            margin:0;
+        }
+        .header {
+            position: static;
+            margin: center;
+            background-color: cornsilk;
+            color:darksalmon;
+        }
+        .footer{
+            background-color:coral;
+            padding: 10px;
+            text-align: center;
+        }
+        </style>
+    </head>
+    <body>
+      <div class="header">
+          <h2>Cards and Spinner</h2>
+      </div>
+      <div class="container">
+          <div class="spinner-border"></div>
+          
+          <div class="card-columns">
+              <div class="card-header">Vijay Mallya</div>
+              <div class="card-body bg-primary"><img src="C:\Users\Jill Robinso Minj\Desktop\jil jung jug\mallya1_660_061618030148_062718033535_070319013527.jpg" height="150px" width="160px"></div>
+              <div class="card-footer">Most wanted for fraud and money laundering</div>
+          
+          
+            <div class="card-header">Nirav Modi</div>
+            <div class="card-body bg-secondary"><img src="C:\Users\Jill Robinso Minj\Desktop\jil jung jug\nirav Modi.jpg" height="150px" width="160px"></div>
+            <div class="card-footer">Most wanted for fraud and money laundering</div>
+        
+        
+            <div class="card-header">A Raja</div>
+            <div class="card-body bg-warning"><img src="C:\Users\Jill Robinso Minj\Desktop\jil jung jug\A raja.jpg" height="150px" width="160px"></div>
+            <div class="card-footer">Most wanted for tax Evasion, ilicit money laundering</div>
+        
+        
+            <div class="card-header">Sreesanth</div>
+            <div class="card-body bg-info"><img src="C:\Users\Jill Robinso Minj\Desktop\jil jung jug\sreesanth.jpg" height="150px" width="160px"></div>
+            <div class="card-footer">Wanted for match fixing and shaving points</div>
+        
+            <div class="card-header">Donald Trump</div>
+            <div class="card-body bg-danger"><a href ="#demo" class="btn btn-primary" data-toggle="collapse"><img src="C:\Users\Jill Robinso Minj\Desktop\jil jung jug\Donald Trump.jpg" height="150px" width="160px"></a>
+                <div id="demo" class="collapse">
+                    President Donald Trump is known for making dumb and offensive remarks that diminish the country’s standing with the rest of the world.
+                     But Tuesday and Wednesday have been an embarrassment of bizarre riches even by his usual standards.
+                </div>
+            </div>
+            <div class="card-footer">Most wanted for being Stupid President Ever</div>
+        
+            <div class="card-header">Pablo Escobar</div>
+            <div class="card-body bg-dark"><img src="C:\Users\Jill Robinso Minj\Desktop\jil jung jug\Pablo Escobar.jpg" height="150px" width="160px"></div>
+            <div class="card-footer">Most wanted for Drug Trafficking, terrorrism and money laundering</div>
+        </div>
+       
+        <div class="spinner-grow text-primary"></div>
+        
+      </div>
+       <div class="footer">
+           <p>The Most Wanted Database</p>
+       </div>
+    </body>
+</html>
