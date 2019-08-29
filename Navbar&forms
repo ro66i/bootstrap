@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Navbar&forms</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>   
+        
+        <style>
+        
+        .header {
+            position: static;
+            margin: 5px;
+            float: center;   
+            background-color: cornsilk;
+            color:darksalmon;
+        }
+        .footer{
+            background-color:coral;
+            padding: 10px;
+            text-align: center;
+        }
+        </style>
+    </head>
+    <body>
+        <div class="header">
+            <h1>IIHT</h1>
+        </div>
+     <div class="container">
+         
+         <ul class="navbar nav-expand-sm bg-dark navabr-dark sticky-top">
+                <li class="nav-item">
+                    <a class="nav-link Active" href="#">Link</a>
+                </li>
+             <li class="nav-item">
+                 <a class="nav-link" href="#">Link</a>
+             </li>
+             <li class="nav-item">
+                 <a class="nav-link" href="#">Link</a>
+             </li>
+             <li class="nav-item">
+                 <a class="nav-link disabled" href="#">Disabled</a>
+             </li>
+             <form class="form-inline" action="/action_page.php">
+            <input class="form-control mr-sm-2" type="text" placeholder="Search">
+            <button class="btn btn-primary" type="submit">Search</button>
+            </form>
+         </ul>
+     </div>
+     <h1>Enquiry Form</h1>
+     <form class="form-inline" action="/action_page.php">
+        <div class="form-groups">
+            <lable form="Name">Name</lable>
+            <input type="Name" class="form-control" id="Name">
+        </div>
+    <div class="form-groups">
+        <lable form="email">Email Address</lable>
+        <input type="email" class="form-control" id="email">
+    </div>
+    <div class="form-groups">
+            <lable form="pwd">Password</lable>
+            <input type="password" class="form-control" id="pwd">
+        </div>
+        <div class="form-groups">
+                <lable form="phone">Phone:</lable>
+                <input type="phone" class="form-control" id="phone">
+            </div>
+        <div class="form-groups form-check">
+                <lable class="form-check-label">
+                <input class="form-check-input" type="checkbox">Remember Me</lable>
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </div>
+    </form>
+     <div class="footer">
+         <h1>footer </h1>
+     </div>
+    </body>
+</html>
